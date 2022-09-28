@@ -1,0 +1,14 @@
+version: "3"
+services:
+  xnttb:
+    build: .
+    environment:
+      # 用户名
+      USERNAME: ""
+      # 密码
+      PASSWORD: ""
+      # 是否在校 0=否 1=是
+      IS_ATSCHOOL: "0"
+      eai-sess: ""
+      # ServerChan的推送链接
+      PUSH: ""
